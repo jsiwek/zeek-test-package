@@ -1,4 +1,4 @@
 [package]
-version = 1.0.1
-scriptpath = scripts/Demo/Rot13
-buildcmd = ./configure --bro-dist=%(bro_dist)s && make
+version = 1.0.2
+script_dir = scripts/Demo/Rot13
+build_command = ./configure --bro-dist=%(bro_dist)s && make
