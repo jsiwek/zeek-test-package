@@ -3,4 +3,5 @@ description = An example Bro package for testing purposes.
 tags = example, test, bro plugin, broctl plugin, rot13, cipher
 script_dir = plugin/scripts/Demo/Rot13
 plugin_dir = plugin/build
-build_command = ( cd plugin && ./configure --bro-dist=%(bro_dist)s && make )
+build_command = cd plugin && ./configure --bro-dist=%(bro_dist)s && make
+test_command = cd testing && btest -d tests
