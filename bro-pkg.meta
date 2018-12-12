@@ -5,3 +5,4 @@ script_dir = plugin/scripts/Demo/Rot13
 plugin_dir = plugin/build
 build_command = cd plugin && ./configure && make
 test_command = cd testing && btest -d tests
+aliases = zeek-test-package bro-test-package
