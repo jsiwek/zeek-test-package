@@ -9,7 +9,7 @@
 
 @load ./init.bro
 
-event bro_init()
+event bro_init() &priority=10
     {
     print "loaded bro-test-package plugin";
     }
