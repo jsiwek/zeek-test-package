@@ -9,7 +9,11 @@
 
 @load ./init.bro
 
+@ifdef ( zeek_init )
+event zeek_init() &priority=10
+@else
 event bro_init() &priority=10
+@endif
     {
     print "loaded bro-test-package plugin";
     }
