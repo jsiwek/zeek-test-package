@@ -3,13 +3,7 @@
 # loaded automatically at that point.
 # 
 
-# @load ./bar.bro 
-
-@ifdef ( zeek_init )
 event zeek_init()
-@else
-event bro_init()
-@endif
     {
-    print "loaded bro-test-package scripts";
+    print "loaded zeek-test-package scripts";
     }

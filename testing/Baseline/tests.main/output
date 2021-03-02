@@ -1,2 +1,2 @@
-loaded bro-test-package plugin
-loaded bro-test-package scripts
+loaded zeek-test-package plugin
+loaded zeek-test-package scripts
