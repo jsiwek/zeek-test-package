@@ -6,3 +6,5 @@ plugin_dir = plugin/build
 build_command = cd plugin && ./configure && make
 test_command = cd testing && btest -d tests
 aliases = zeek-test-package bro-test-package
+depends =
+  zeek >=4.0.0
